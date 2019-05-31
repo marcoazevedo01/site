@@ -1,0 +1,118 @@
+/* centralizar do o conteúdo na página e remover os  espaços entre as DIV  */
+*{margin:0px;
+padding:0px;
+}
+
+
+body {
+  font-family:Arial, Helvetica, sans-serif; 
+  color:#FFF; 
+  font-size:12px;
+  background-color:#9999;
+  background-image:url(../img/background.png); 
+  background-repeat:repeat;
+  height: 100%;
+  width: 100%;
+  
+}
+section{
+	padding-bottom:5px;
+}
+/* começo navbar */
+.fixed{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 9999;
+  width: 100%;
+  height: 50px;
+}
+.nav ul {
+  background-color: #444;
+  text-align: center;
+  padding: 5px;
+  margin: 0px; 
+  position: relative;
+}
+.nav ul img{
+  padding-top: 0px;
+  height: 20px;
+  width: 20px;  
+  margin:auto;
+  padding-right:560px;
+}
+ 
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  transition: .3s background-color;
+  margin-top: 0px;
+}
+ 
+.nav a:hover {
+  background-color: #4C8BF5; /*cor fundo navbar */
+}
+ 
+.nav li a, .dropbtn {
+    padding: 14px 18px;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 110px;
+    border-bottom: none;
+    height: 25px;
+	margin: 10px;
+	margin-top: 0px;
+    line-height: 35px; /* alinhamento da linha li do navbar */
+    font-size: 1.4em;	 
+  }
+ 
+  /* Option 1 - Display Inline */
+  .nav li {
+    display: inline-block;
+    margin-right: -3px;
+  }
+
+/* fim navbar*/
+header{
+	width: 80%;
+}
+
+header img{
+	width:350px;         /* Largura */
+	height:165px;     /* Altura */
+	margin-top:60px;
+	margin-left:500px;	
+	
+}	
+
+
+/* Termina aqui o conteúdo -------------------------------------------------------------------------------------------------------------------------------------------------------- */
+footer{
+	background-image:url(../img/preto2.png);
+	width:980px;
+	height:75px;
+	margin:auto;
+	margin-top:-5px;
+	margin-bottom:5px;
+}
+
+footer p{
+	position:absolute;
+	margin-top:50px;
+	margin-left:630px;
+}
+
+/*--fim--*/
+/*--fonts--*/
+.texto p{
+	margin-top:20px;
+	font-size:1.2em;
+	width:850px;	
+	position:relative;
+	margin-left:35px;
+	text-align:justify;
+}
