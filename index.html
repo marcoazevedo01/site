@@ -4,26 +4,37 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="language" content="pt-br" />
-		<link href="css/estilo.css" rel="stylesheet" type="text/css" media="screen" />	
-		
+		<link href="css/estilo.css" rel="stylesheet" type="text/css" media="screen" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="shortcut icon" href="img/logo.png">
-		
 		<title>Blog Marco Antonio</title>
 	</head>
-	
 	<body>
-		<header>
-			<a href="index.html"><img alt="logonav" src="img/logo.png"/></a>
-		</header>
-		<nav class="navbar">
-			<ul>
-				
-				<li><a href="home.html" target="_self">Home</a></li>	
-				<li><a href="fatec.html">Fatec</a></li>
-				<li><a href="diciplinas.html">Diciplinas</a></li>
-				<li><a href="sobre.html">Sobre</a></li>
-			</ul>
-		</nav>
+		<nav class="navBar">
+			<div class="w3-bar w3-black w3-card">
+				<a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+				<a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+				<a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PORTFOLIO</a>
+				<a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTATO</a>
+				<a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SOBRE</a>
+				<div class="w3-dropdown-hover w3-hide-small">
+					<button class="w3-padding-large w3-button" title="More">MAIS <i class="fa fa-caret-down"></i></button>     
+					<div class="w3-dropdown-content w3-bar-block w3-card-4">
+						<a href="#" class="w3-bar-item w3-button">Extras</a>
+						<a href="#" class="w3-bar-item w3-button">Media</a>
+					</div>
+				</div>
+				<a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+			</div>
+		</nav>		
+<!-- remova o atributo onclick se quiser que a barra de navegação apareça sempre no topo do conteúdo ao clicar nos links) -->
+		<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+			<a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PORTFOLIO</a>
+			<a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTATO</a>
+			<a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SOBRE</a>
+			<a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MAIS</a>
+		</div>
+		
 		<article class="flex">
 			<header>header </header>
 			
@@ -33,7 +44,17 @@
 		</article>
 		<footer>
 			<p>© Copyright 2019 - Marco Design, Todos os direitos reservados.</p>
-		</footer>
-			
+		</footer>	
+	<script>
+	// alternar o menu 
+		function myFunction() {
+		  var x = document.getElementById("navDemo");
+		  if (x.className.indexOf("w3-show") == -1) {
+			x.className += " w3-show";
+		  } else { 
+			x.className = x.className.replace(" w3-show", "");
+		  }
+		}		
+	</script>	
 	</body>
 </html>
