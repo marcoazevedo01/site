@@ -1,11 +1,11 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="language" content="pt-br" />
 		<link href="css/estilo.css" rel="stylesheet" type="text/css" media="screen" />
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
 		<link rel="shortcut icon" href="img/logo.png">
 		<title>Blog Marco Antonio</title>
 	</head>
@@ -13,48 +13,176 @@
 		<nav class="navBar">
 			<div class="w3-bar w3-black w3-card">
 				<a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-				<a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
-				<a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PORTFOLIO</a>
-				<a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTATO</a>
-				<a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SOBRE</a>
+				<a href="#home" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+				<a href="#sobre" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SOBRE</a>
+				<a href="#portfolio" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PORTFOLIO</a>
+				<a href="#contato" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTATO</a>
 				<div class="w3-dropdown-hover w3-hide-small">
 					<button class="w3-padding-large w3-button" title="More">MAIS <i class="fa fa-caret-down"></i></button>     
 					<div class="w3-dropdown-content w3-bar-block w3-card-4">
-						<a href="#" class="w3-bar-item w3-button">Extras</a>
-						<a href="#" class="w3-bar-item w3-button">Media</a>
+						<a href="#extra" class="w3-bar-item w3-button">Extras</a>
+						<a href="#media" class="w3-bar-item w3-button">Media</a>
 					</div>
 				</div>
 				<a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
 			</div>
-		</nav>		
-<!-- remova o atributo onclick se quiser que a barra de navegação apareça sempre no topo do conteúdo ao clicar nos links) -->
-		<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-			<a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PORTFOLIO</a>
-			<a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTATO</a>
-			<a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SOBRE</a>
-			<a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MAIS</a>
+			<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+				<a href="#portfolio" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PORTFOLIO</a>
+				<a href="#contato" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTATO</a>
+				<a href="#sobre" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SOBRE</a>
+				<a href="#mais" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MAIS</a>
+			</div>
+		</nav>
+		<!-- First Parallax Image with Logo Text -->
+		<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+			<div class="w3-display-middle" style="white-space:nowrap;">
+				<img src="img/logoMarco.png" class="w3-center w3-padding-large w3-wide w3-animate-opacity" alt="meu logo do site">
+			</div>
 		</div>
-		
-		<article class="flex">
-			<header>header </header>
+	<!-- Container (About Section) -->
+		<div class="w3-content w3-container w3-padding-64" id="sobre">
+			<h3 class="w3-center">Sobre min</h3>
+			<p class="w3-center"><em>Desenvolvimento Web</em></p>
+			<p>We have created a fictional "personal" website/blog, and our fictional character is a hobby photographer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+			qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			<div class="w3-row">
+				<div class="w3-col m6 w3-center w3-padding-large">
+					<p><b><i class="fa fa-user w3-margin-right"></i>Eu</b></p><br>
+					<img src="/w3images/avatar_hat.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+				</div>
+		<!-- Hide this text on small devices -->
+				<div class="w3-col m6 w3-hide-small w3-padding-large">
+					<p>Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+					dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
+					incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="w3-row w3-center w3-dark-grey w3-padding-16">
+			<div class="w3-quarter w3-section">
+				<span class="w3-xlarge">11+</span><br>
+				Parceiros
+			</div>
+			<div class="w3-quarter w3-section">
+				<span class="w3-xlarge">20+</span><br>
+				Projetos concluidos
+			</div>
+			<div class="w3-quarter w3-section">
+				<span class="w3-xlarge">6+</span><br>
+				Projetos em Andamento
+			</div>
+			<div class="w3-quarter w3-section">
+				<span class="w3-xlarge">150+</span><br>
+				Clientes Felizes
+			</div>
+		</div>
+
+	<!-- Second Parallax Image with Portfolio Text -->
+		<div class="bgimg-2 w3-display-container w3-opacity-min" id="portfolio">
+			<div class="w3-display-middle">
+				<span class="w3-xxlarge w3-black w3-wide">PORTFOLIO</span>
+			</div>
+		</div>
+	<!-- Container (Portfolio Section) -->
+		<div class="w3-content w3-container w3-padding-64">
+			<h3 class="w3-center">Meu Trabalho</h3>
+			<p class="w3-center"><em>Aqui estão alguns dos meus mais recentes projetos.<br> Click nas imagens para tornalas maiores. </em></p><br>
+	  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+			<div class="w3-row-padding w3-center">
+				<div class="w3-col m3">
+					<img src="/w3images/p1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
+				</div>
+				<div class="w3-col m3">
+					<img src="/w3images/p2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coffee beans">
+				</div>
+				<div class="w3-col m3">
+					<img src="/w3images/p3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">
+				</div>
+				<div class="w3-col m3">
+					<img src="/w3images/p4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean">
+				</div>
+			</div>
+			<div class="w3-row-padding w3-center w3-section">
+				<div class="w3-col m3">
+					<img src="/w3images/p5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
+				</div>
+				<div class="w3-col m3">
+					<img src="/w3images/p6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter">
+				</div>
+				<div class="w3-col m3">
+					<img src="/w3images/p7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
+				</div>
+				<div class="w3-col m3">
+					<img src="/w3images/p8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
+				</div>
+				<button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">Veja Mais...</button>
+			</div>
+		</div>
+		<!-- Modal for full size images on click-->
+		<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+		  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+		  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
 			
-			<main>main</main>
-			
-			<section>section</section>
-		</article>
-		<footer>
-			<p>© Copyright 2019 - Marco Design, Todos os direitos reservados.</p>
+			<p id="caption" class="w3-opacity w3-large"></p>
+		  </div>
+		</div>
+		<!-- Third Parallax Image with Portfolio Text -->
+		<div class="bgimg-3 w3-display-container w3-opacity-min" id="contato">
+		  <div class="w3-display-middle">
+			 <span class="w3-xxlarge w3-black w3-wide">CONTATO</span>
+		  </div>
+		</div>
+		<!-- Container (Contact Section) -->
+		<div class="w3-content w3-container w3-padding-64" >
+		  <p class="w3-center"><em>Eu adoraria seu feedback!</em></p>
+		  <div class="w3-row w3-padding-32 w3-section">
+				<div class="w3-col w3-panel">
+					<div class="w3-large w3-margin-bottom">
+						<i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Jales, SP<br>
+						<i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Telefone: +17 997826312<br>
+						<i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: marcoantonio.azevedo@hotmail.com<br>
+					</div>
+					<form action="/action_page.php" target="_blank">
+						<div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+							<div class="w3-half">
+								<input class="w3-input w3-border" type="text" placeholder="Nome" required name="Name">
+							</div>
+							<div class="w3-half">
+								<input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+							</div>
+						</div>
+						<input class="w3-input w3-border" type="text" placeholder="Mensagem" required name="Message">
+						<button class="w3-button w3-black w3-right w3-section" type="submit">
+							<i class="fa fa-paper-plane"></i> Enviar
+						</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+			<a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Voltar ao Topo</a>
+			<div class="w3-xlarge w3-section">
+				<i class="fa fa-facebook-official w3-hover-opacity"></i>
+				<i class="fa fa-instagram w3-hover-opacity"></i>
+				<i class="fa fa-snapchat w3-hover-opacity"></i>
+				<i class="fa fa-pinterest-p w3-hover-opacity"></i>
+				<i class="fa fa-twitter w3-hover-opacity"></i>
+				<i class="fa fa-linkedin w3-hover-opacity"></i>
+			</div>
+			<p>Powered by Marco</p>
 		</footer>	
-	<script>
-	// alternar o menu 
-		function myFunction() {
-		  var x = document.getElementById("navDemo");
-		  if (x.className.indexOf("w3-show") == -1) {
-			x.className += " w3-show";
-		  } else { 
-			x.className = x.className.replace(" w3-show", "");
-		  }
-		}		
-	</script>	
+		<script>
+		// alternar o menu 
+			function myFunction() {
+			  var x = document.getElementById("navDemo");
+			  if (x.className.indexOf("w3-show") == -1) {
+				x.className += " w3-show";
+			  } else { 
+				x.className = x.className.replace(" w3-show", "");
+			  }
+			}		
+		</script>	
 	</body>
 </html>
