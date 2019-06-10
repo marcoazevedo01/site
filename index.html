@@ -26,41 +26,41 @@
 				</div>
 				<a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
 			</div>
-			<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+			<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top">
 				<a href="#portfolio" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PORTFOLIO</a>
 				<a href="#contato" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTATO</a>
 				<a href="#sobre" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SOBRE</a>
 				<a href="#mais" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MAIS</a>
 			</div>
-		</nav>
-		<!-- First Parallax Image with Logo Text -->
+		</nav>	
+<!-- Section logo na img home -->
 		<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
 			<div class="w3-display-middle" style="white-space:nowrap;">
 				<img src="img/logoMarco.png" class="w3-center w3-padding-large w3-wide w3-animate-opacity" alt="meu logo do site">
 			</div>
 		</div>
-	<!-- Container (About Section) -->
-		<div class="w3-content w3-container w3-padding-64" id="sobre">
-			<h3 class="w3-center">Sobre min</h3>
-			<p class="w3-center"><em>Desenvolvimento Web</em></p>
-			<p>We have created a fictional "personal" website/blog, and our fictional character is a hobby photographer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-			qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		<article>
+<!--(sobre Section) -->
+		<section class="w3-content w3-container w3-padding-64" id="sobre">
+			<h2 class="w3-center">Desenvolvimento Web</h2>
+			<p>	Bem-vindo ao meu website. Projeto desenvolvido para trabalho 2 semestre FATEC – JALES.
+				<li>Layout long scrolling.</li>
+				<li>Responsivo.</li>
+				<li>minimalista.</li></p>
 			<div class="w3-row">
 				<div class="w3-col m6 w3-center w3-padding-large">
 					<p><b><i class="fa fa-user w3-margin-right"></i>Eu</b></p><br>
-					<img src="/w3images/avatar_hat.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+					<img src="img/me.jpg" class="sMeImagem w3-opacity "alt="uma foto minha">
 				</div>
-		<!-- Hide this text on small devices -->
+<!-- o texto dessa section é ocultado em dispositivos pequenos -->
 				<div class="w3-col m6 w3-hide-small w3-padding-large">
-					<p>Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-					dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
-					incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				<h3 class="w3-center">Sobre min</h3>
+					<p>Olá me chamo Marco Antonio Siviero Azevedo, tenho 22 anos, moro em Jales, sou formado em Técnico de informática pela ETEC de Santa Fé do Sul, 
+					atualmente estou cursando Sistemas para internet na Fatec de Jales .</p>
 				</div>
 			</div>
-		</div>
-
-		<div class="w3-row w3-center w3-dark-grey w3-padding-16">
+		</section>
+		<section class="w3-row w3-center w3-dark-grey w3-padding-16">
 			<div class="w3-quarter w3-section">
 				<span class="w3-xlarge">11+</span><br>
 				Parceiros
@@ -77,19 +77,18 @@
 				<span class="w3-xlarge">150+</span><br>
 				Clientes Felizes
 			</div>
-		</div>
-
-	<!-- Second Parallax Image with Portfolio Text -->
-		<div class="bgimg-2 w3-display-container w3-opacity-min" id="portfolio">
+		</section>
+<!-- segunda img - portfolio -->
+		<section class="bgimg-2 w3-display-container w3-opacity-min" id="portfolio">
 			<div class="w3-display-middle">
 				<span class="w3-xxlarge w3-black w3-wide">PORTFOLIO</span>
 			</div>
-		</div>
-	<!-- Container (Portfolio Section) -->
-		<div class="w3-content w3-container w3-padding-64">
+		</section>
+<!--Portfolio Section) -->
+		<section class="w3-content w3-container w3-padding-64">
 			<h3 class="w3-center">Meu Trabalho</h3>
 			<p class="w3-center"><em>Aqui estão alguns dos meus mais recentes projetos.<br> Click nas imagens para tornalas maiores. </em></p><br>
-	  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+<!--grade portfolio Responsiva, Quatro colunas -->
 			<div class="w3-row-padding w3-center">
 				<div class="w3-col m3">
 					<img src="/w3images/p1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
@@ -119,23 +118,23 @@
 				</div>
 				<button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">Veja Mais...</button>
 			</div>
-		</div>
-		<!-- Modal for full size images on click-->
-		<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+		</section>
+<!--Modal para imagens em tamanho real ao clicar-->
+		<section id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
 		  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
 		  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
 			
 			<p id="caption" class="w3-opacity w3-large"></p>
 		  </div>
-		</div>
-		<!-- Third Parallax Image with Portfolio Text -->
-		<div class="bgimg-3 w3-display-container w3-opacity-min" id="contato">
+		</section>
+<!-- Terceira imagem com texto de portfólio -->
+		<section class="bgimg-3 w3-display-container w3-opacity-min" id="contato">
 		  <div class="w3-display-middle">
 			 <span class="w3-xxlarge w3-black w3-wide">CONTATO</span>
 		  </div>
-		</div>
-		<!-- Container (Contact Section) -->
-		<div class="w3-content w3-container w3-padding-64" >
+		</section>
+<!--(Contact Section) -->
+		<section class="w3-content w3-container w3-padding-64" >
 		  <p class="w3-center"><em>Eu adoraria seu feedback!</em></p>
 		  <div class="w3-row w3-padding-32 w3-section">
 				<div class="w3-col w3-panel">
@@ -145,7 +144,7 @@
 						<i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: marcoantonio.azevedo@hotmail.com<br>
 					</div>
 					<form action="/action_page.php" target="_blank">
-						<div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+						<div class="w3-row-padding" >
 							<div class="w3-half">
 								<input class="w3-input w3-border" type="text" placeholder="Nome" required name="Name">
 							</div>
@@ -160,7 +159,8 @@
 					</form>
 				</div>
 			</div>
-		</div>
+		</section>
+		<article>
 		<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
 			<a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Voltar ao Topo</a>
 			<div class="w3-xlarge w3-section">

@@ -7,6 +7,8 @@ body, html {
 }
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+
+/* ----------------------------------nav bar inicio------------------------ */
 .w3-wide{letter-spacing:4px}
 .w3-dropdown-hover:hover .w3-dropdown-content{display:block}/*--ativa caixa opcoes--*/
 .w3-dropdown-content{
@@ -51,7 +53,7 @@ html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
 .navBar,.w3-bottom{
 	position:fixed;
 	width:100%;
-	z-index:1
+	z-index:1;
 }
 .w3-hide{display:none!important}
 .w3-show-block,.w3-show{display:block!important}
@@ -71,10 +73,13 @@ html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
 /* cores */
 .w3-black,.w3-hover-black:hover{color:#fff!important;background-color:#000!important}
 .w3-red,.w3-hover-red:hover{color:#fff!important;background-color:#f44336!important}
+/* ----------------------------------nav bar fim------------------------ */
 
-/* ------------------------------------------------------------- */
-
-/* Create a Parallax Effect */
+.sMeImagem{
+  width:90%;
+  transform: rotate(-90deg);
+}
+/*Parallax Effect */
 .bgimg-1, .bgimg-2, .bgimg-3 {
   background-attachment: fixed;
   background-position: center;
@@ -82,19 +87,19 @@ html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
   background-size: cover;
 }
 
-/* First image (Logo. Full height) */
+/* 1 img (Logo. Full height) */
 .bgimg-1 {
   background-image: url(../img/ApPriImg.jpg);
   min-height: 100%;
 }
 
-/* Second image (Portfolio) */
+/* 2 img (Portfolio) */
 .bgimg-2 {
   background-image: url(../img/img1-criacao.png);
   min-height: 400px;
 }
 
-/* Third image (Contact) */
+/*3 img (Contact) */
 .bgimg-3 {
   background-image: url(../img/img3.jpg);
   min-height: 400px;
@@ -110,7 +115,9 @@ html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
     min-height: 400px;
   }
 }
-
+.w3-row-padding{
+	margin:1% -1.8% 0.8% -1.8%;
+}
 .w3-bordered tr,.w3-table-all tr{border-bottom:1px solid #ddd}
 .w3-hoverable tbody tr:hover,.w3-ul.w3-hoverable li:hover{background-color:#ccc}
 .w3-btn,.w3-button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
