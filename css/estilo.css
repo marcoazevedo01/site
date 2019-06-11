@@ -76,7 +76,7 @@ html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
 /* ----------------------------------nav bar fim------------------------ */
 
 .sMeImagem{
-  width:90%;
+  width:85%;
   transform: rotate(-90deg);
 }
 /*Parallax Effect */
@@ -101,7 +101,7 @@ html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
 
 /*3 img (Contact) */
 .bgimg-3 {
-  background-image: url(../img/img3.jpg);
+  background-image: url(../img/contato.jpg);
   min-height: 400px;
 }	
 
