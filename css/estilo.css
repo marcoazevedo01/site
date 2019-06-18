@@ -40,7 +40,6 @@ body, html {
 .w3-bar .w3-dropdown-hover, .w3-dropdown-click{
 	position:static;
 	float:left;
-	
 }
 .w3-bar-block .w3-bar-item{
 	width:100%;
@@ -67,8 +66,8 @@ body, html {
   width:85%;
 }
 .sMeImagem{
-	width:85%;
-	transform: rotate(-90deg);
+  width:85%;
+  transform: rotate(-90deg);
 }
 /*efeito das imgs nas transicoes de sections */
 .bgimg-1, .bgimg-2, .bgimg-3 {
@@ -150,7 +149,7 @@ body, html {
 /* ----------------------------------responsivo fim----------------------- */
 
 /*ajustes dentro das secoes */
-.w3-content{max-width:980px}
+.w3-content{max-width:950px}
 .w3-content,.w3-auto{margin-left:auto;margin-right:auto}
 .w3-auto{max-width:1140px}
 .w3-opacity-min{opacity:0.75}
@@ -163,13 +162,13 @@ body, html {
 
 /* --section transicoes sobre/port-- */
 .w3-dark-grey,.w3-hover-dark-grey:hover,.w3-dark-gray,.w3-hover-dark-gray:hover{
-	color:#fff!important;
+	color:#fff;
 	background-color:#616161;
 }
 .w3-col,.w3-half,.w3-third,.w3-twothird,.w3-threequarter,.w3-quarter{float:left; width:100%;}
 
 /*ajustes*/
-.w3-xlarge{font-size:24px;}
+.w3-xlarge{font-size:26px;}
 .w3-xxlarge{font-size:36px;}
 .w3-xxxlarge{font-size:48px;}
 .w3-modal{
@@ -184,7 +183,7 @@ body, html {
 	overflow:auto;
 }
 .w3-input{
-	padding:8px;
+	padding:1%;
 	width:100%;
 }
 .w3-container:after,.w3-container:before,.w3-panel:after,.w3-panel:before,.w3-row:after,.w3-row:before,.w3-row-padding:after,.w3-row-padding:before,
