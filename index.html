@@ -24,7 +24,6 @@
 						<a href="#media" class="w3-bar-item w3-button">Media</a>
 					</div>
 				</div>
-				<!--<a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a> -->
 			</div>
 			<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top">
 				<a href="#portfolio" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PORTFOLIO</a>
@@ -42,7 +41,7 @@
 		<article>
 <!--(sobre Section) -->
 		<section class="w3-content w3-container w3-padding-64" id="sobre">
-			<h2 class="w3-center">Desenvolvimento Web</h2>
+			<h1 class="w3-center">Desenvolvimento Web</h1>
 			<p>	Bem-vindo ao meu website. Projeto desenvolvido para trabalho 2 semestre FATEC – JALES.
 				<li>Layout long scrolling.</li>
 				<li>Responsivo.</li>
@@ -54,7 +53,7 @@
 				</div>
 <!-- o texto dessa section é ocultado em dispositivos pequenos -->
 				<div class="w3-col m6 w3-hide-small w3-padding-large">
-				<h3 class="w3-center">Sobre min</h3>
+				<h2 class="w3-center">Sobre min</h2>
 					<p>Olá me chamo Marco Antonio Siviero Azevedo, tenho 22 anos, moro em Jales, sou formado em Técnico de informática pela ETEC de Santa Fé do Sul, 
 					atualmente estou cursando Sistemas para internet na Fatec de Jales .</p>
 				</div>
@@ -63,19 +62,19 @@
 		<section class="w3-row w3-center w3-dark-grey w3-padding-16">
 			<div class="w3-quarter w3-section">
 				<span class="w3-xlarge">11+</span><br>
-				Parceiros
+				<h3>Parceiros</h3>
 			</div>
 			<div class="w3-quarter w3-section">
 				<span class="w3-xlarge">20+</span><br>
-				Projetos concluidos
+				<h3>Projetos concluidos</h3>
 			</div>
 			<div class="w3-quarter w3-section">
 				<span class="w3-xlarge">6+</span><br>
-				Projetos em Andamento
+				<h3>Projetos em Andamento</h3>
 			</div>
 			<div class="w3-quarter w3-section">
 				<span class="w3-xlarge">150+</span><br>
-				Clientes Felizes
+				<h3>Clientes Felizes</h3>
 			</div>
 		</section>
 <!-- segunda img - portfolio -->
@@ -86,7 +85,7 @@
 		</section>
 <!--Portfolio Section) -->
 		<section class="w3-container w3-padding-64">
-			<h3 class="w3-center">Meu Trabalho</h3>
+			<h2 class="w3-center">Meu Trabalho</h2>
 			<p class="w3-center"><em>Aqui estão alguns dos meus mais recentes projetos.<br> Click na imagem para abrir o site. </em></p><br>
 <!--grade portfolio Responsiva, Quatro colunas -->
 			<div class="w3-center">
@@ -108,13 +107,6 @@
 				</div>
 			</div>
 		</section>
-<!--Modal para imagens em tamanho real ao clicar-->
-		<section id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
-		  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
-		  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">	
-			<p id="caption" class="w3-opacity w3-large"></p>
-		  </div>
-		</section>
 <!-- Terceira imagem com texto de portfólio -->
 		<section class="bgimg-3 w3-display-container w3-opacity-min" id="contato">
 		  <div class="w3-display-middle">
@@ -125,11 +117,11 @@
 		<section class="w3-content w3-container w3-padding-64" >
 		  <p class="w3-center"><em>Eu adoraria seu feedback!</em></p>
 		  <div class="w3-row w3-padding-32 w3-section">
-				<div class="w3-col w3-panel">
-					<div class="w3-large w3-margin-bottom">
-						<i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Jales, SP<br>
-						<i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Telefone: +17 997826312<br>
-						<i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: marcoantonio.azevedo@hotmail.com<br>
+				<div class="w3-panel">
+					<div class="w3-margin-bottom">
+						<i class="fa fa-map-marker w3-xlarge "></i> Jales, SP<br>
+						<i class="fa fa-phone w3-xlarge"></i> Telefone: +17 997826312<br>
+						<i class="fa fa-envelope w3-xlarge "></i> Email: marcoantonio.azevedo@hotmail.com<br>
 					</div>
 					<form action="/action_page.php" target="_blank">
 						<div class="w3-row-padding" >
@@ -142,7 +134,7 @@
 						</div>
 						<input class="w3-input w3-border" type="text" placeholder="Mensagem" required name="Message">
 						<button class="w3-button w3-black w3-right w3-section" type="submit">
-							<i class="fa fa-paper-plane"></i> Enviar
+							<i class="fa fa-paper-plane"></i> <h2>Enviar</h2>
 						</button>
 					</form>
 				</div>
@@ -152,12 +144,11 @@
 		<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
 			<a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Voltar ao Topo</a>
 			<div class="w3-xlarge w3-section">
-				<a href="index.htm" target=”_blank”><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
-				<a href="index.htm" target=”_blank”><i class="fa fa-instagram w3-hover-opacity"></i></a>
-				<a href="index.htm" target=”_blank”><i class="fa fa-snapchat w3-hover-opacity"></i></a>
-				<a href="index.htm" target=”_blank”><i class="fa fa-pinterest-p w3-hover-opacity"></i></a>
-				<a href="index.htm" target=”_blank”><i class="fa fa-twitter w3-hover-opacity"></i></a>
-				<a href="index.htm" target=”_blank”><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+				<a href="https://www.facebook.com" target=”_blank”><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+				<a href="https://www.instagram.com" target=”_blank”><i class="fa fa-instagram w3-hover-opacity"></i></a>
+				<a href="https://www.pinterest.com" target=”_blank”><i class="fa fa-pinterest-p w3-hover-opacity"></i></a>
+				<a href="https://www.twitter.com" target=”_blank”><i class="fa fa-twitter w3-hover-opacity"></i></a>
+				<a href="https://www.linkedin.com" target=”_blank”><i class="fa fa-linkedin w3-hover-opacity"></i></a>
 			</div>
 			<p>Powered by Marco</p>
 		</footer>	
